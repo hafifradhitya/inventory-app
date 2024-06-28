@@ -1,0 +1,27 @@
+ERROR - 2024-01-12 20:47:15 --> {"id":"1","nama":"hafifradhitya","email":"admin@gmail.com","password":"$2y$10$tfKwaovoy\/0bMlvto3RlseLaPNk3jF5uO.LUTJAnrFIEVUgu7qNGW","status":"1","created_at":"2024-01-06 10:04:26","updated_at":"2024-01-06 10:04:26"}
+ERROR - 2024-01-12 20:54:54 --> [{"id":"2","unit_id":"1","type_id":"1","name":"Samsung","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"},{"id":"1","unit_id":"1","type_id":"1","name":"Idfs f","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"}]
+ERROR - 2024-01-12 20:56:06 --> [{"id":"2","unit_id":"1","type_id":"1","name":"Samsung","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"},{"id":"1","unit_id":"1","type_id":"1","name":"Idfs f","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"}]
+ERROR - 2024-01-12 20:57:50 --> [{"id":"2","unit_id":"1","type_id":"1","name":"Samsung","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"},{"id":"1","unit_id":"1","type_id":"1","name":"Idfs f","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"}]
+ERROR - 2024-01-12 20:58:02 --> [{"id":"2","unit_id":"1","type_id":"1","name":"Samsung","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"},{"id":"1","unit_id":"1","type_id":"1","name":"Idfs f","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"}]
+ERROR - 2024-01-12 20:59:47 --> [{"id":"2","unit_id":"1","type_id":"1","name":"Samsung","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"},{"id":"1","unit_id":"1","type_id":"1","name":"Idfs f","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"}]
+ERROR - 2024-01-12 21:01:18 --> [{"id":"2","unit_id":"1","type_id":"1","name":"Samsung","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"},{"id":"1","unit_id":"1","type_id":"1","name":"Idfs f","created_at":"0000-00-00 00:00:00","updated_at":"0000-00-00 00:00:00","type":"Laptop","unit":"1 pcs"}]
+CRITICAL - 2024-01-12 21:03:34 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\BarangController.php on line 27.
+ 1 APPPATH\Controllers\BarangController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\BarangController.php', 27)
+ 2 APPPATH\ThirdParty\datatable\DataTableQuery.php(91): App\Controllers\BarangController->App\Controllers\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\datatable\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\BarangController.php(31): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\BarangController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 21:04:11 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\BarangController.php on line 27.
+ 1 APPPATH\Controllers\BarangController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\BarangController.php', 27)
+ 2 APPPATH\ThirdParty\datatable\DataTableQuery.php(91): App\Controllers\BarangController->App\Controllers\{closure}(Object(stdClass))
+ 3 APPPATH\ThirdParty\datatable\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\BarangController.php(31): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\BarangController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

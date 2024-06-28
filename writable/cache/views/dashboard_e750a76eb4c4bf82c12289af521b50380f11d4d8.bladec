@@ -1,0 +1,13 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('content'); ?>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('modal'); ?>
+
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('script'); ?>
+
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout.main'); } ?>
